@@ -1,0 +1,55 @@
+body {
+    height: 100vh;
+    background: linear-gradient(to top, rgb(32, 109, 92), transparent);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: 'trebuchet ms';
+}
+
+h1{
+    color: goldenrod;
+    text-transform: uppercase;
+    font-family: Arial black;
+    letter-spacing: 3px;
+}
+
+h1:hover{
+    color: rgb(137, 45, 223);
+    cursor: crosshair;
+}
+
+input{
+    border: 1px solid black;
+    border-radius: 3px;
+    margin: 3px;
+    font-size: 16px;
+}
+
+button{
+    border: 0;
+    background-color: violet;
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin: 10px;
+    cursor: pointer;
+
+}
+
+button:hover{
+    border: 1px solid black;
+    background-color: white;
+    color: blue;
+}
+
+h3{
+    background-color: rgb(63, 9, 63);
+    color: white;
+    border-radius: 10px;
+}
+
+span{
+   color: rgb(172, 27, 27);
+}
