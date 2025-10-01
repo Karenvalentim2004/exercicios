@@ -5,7 +5,7 @@ function fnStart() {
     document.getElementById("contador").innerHTML = contador
     if(controle == 0){
         contador++
-    }else if(contador == 10){
+    }else if(controle == 10){
         contador--
     }
 
