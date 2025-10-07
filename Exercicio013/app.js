@@ -25,5 +25,6 @@ while(i < veiculos.length){
 }
 
 function fnLimpar() {
+    document.getElementById("form_veiculos").reset()
 
 }

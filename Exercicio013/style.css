@@ -1,0 +1,6 @@
+body {
+    height: 100vh;
+    background: linear-gradient(to top, rgb(74, 63, 175), transparent);
+    display: flex;
+    flex-direction: column;
+}
