@@ -1,4 +1,3 @@
-/* estilo base para todos os cards */
 .cartao-base {
     color: #fff;
     padding: 20px;
@@ -10,23 +9,19 @@
     transition: transform 0.5s ease;
 }
 
-/* animação de hover igual pra todos */
 .cartao-base:hover {
     transform: translateY(-15px);
 }
 
-/* botão sempre no fim */
 .cartao-base a {
     align-self: flex-start;
     margin-top: auto;
 }
 
-/* espaçamento entre colunas */
 .row > div {
     margin-bottom: 20px;
 }
 
-/* 4 cards por linha */
 @media (min-width: 768px) {
     .col-md-3 {
         flex: 0 0 25%;
@@ -34,21 +29,28 @@
     }
 }
 
-/* ---- 🎨 Cores individuais ---- */
-.cartao1 { background-color: #00796b !important; } /* verde escuro */
-.cartao2 { background-color: #009688 !important; } /* verde médio */
-.cartao3 { background-color: #26a69a !important; } /* verde claro */
-.cartao4 { background-color: #00838f !important; } /* azul petróleo */
-.cartao5 { background-color: #00695c !important; } /* verde profundo */
-.cartao6 { background-color: #43a047 !important; } /* verde vibrante */
-.cartao7 { background-color: #5e35b1 !important; } /* roxo */
-.cartao8 { background-color: #3949ab !important; } /* azul */
-.cartao9 { background-color: #1e88e5 !important; } /* azul claro */
-.cartao10 { background-color: #039be5 !important; } /* azul vibrante */
-.cartao11 { background-color: #0288d1 !important; } /* azul médio */
-.cartao12 { background-color: #6d4c41 !important; } /* marrom */
-.cartao13 { background-color: #8e24aa !important; } /* roxo claro */
-.cartao14 { background-color: #d81b60 !important; } /* rosa escuro */
-.cartao15 { background-color: #c2185b !important; } /* rosa médio */
-.cartao16 { background-color: #ad1457 !important; } /* rosa profundo */
-.cartao17 { background-color: #f57c00 !important; } /* laranja */
+.cartao1 { background-color: #00796b !important; } 
+.cartao2 { background-color: #009688 !important; } 
+.cartao3 { background-color: #26a69a !important; } 
+.cartao4 { background-color: #00838f !important; } 
+.cartao5 { background-color: #00695c !important; } 
+.cartao6 { background-color: #43a047 !important; } 
+.cartao7 { background-color: #5e35b1 !important; } 
+.cartao8 { background-color: #3949ab !important; } 
+.cartao9 { background-color: #1e88e5 !important; } 
+.cartao10 { background-color: #039be5 !important; } 
+.cartao11 { background-color: #0288d1 !important; } 
+.cartao12 { background-color: #6d4c41 !important; } 
+.cartao13 { background-color: #8e24aa !important; } 
+.cartao14 { background-color: #d81b60 !important; } 
+.cartao15 { background-color: #c2185b !important; } 
+.cartao16 { background-color: #ad1457 !important; } 
+.cartao17 { background-color: #f57c00 !important; } 
+.cartao18 { background-color: #ef6c00 !important; } 
+.cartao19 { background-color: #ff8f00 !important; } 
+.cartao20 { background-color: #fbc02d !important; } 
+.cartao21 { background-color: #afb42b !important; } 
+.cartao22 { background-color: #689f38 !important; } 
+.cartao23 { background-color: #00acc1 !important; } 
+.cartao24 { background-color: #3949ab !important; } 
+
