@@ -1,3 +1,8 @@
+body{
+    background-color: whitesmoke;
+    font-family:Arial, Helvetica, sans-serif
+}
+
 .cartao-base {
     color: #fff;
     padding: 20px;
@@ -47,6 +52,8 @@
 .cartao16 { background-color: #ad1457 !important; } 
 .cartao17 { background-color: #f57c00 !important; } 
 .cartao18 { background-color: #ef6c00 !important; } 
+
+
 .cartao19 { background-color: #ff8f00 !important; } 
 .cartao20 { background-color: #fbc02d !important; } 
 .cartao21 { background-color: #afb42b !important; } 
