@@ -1,0 +1,9 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  background: linear-gradient(to bottom, #356abc, #fbd743);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
