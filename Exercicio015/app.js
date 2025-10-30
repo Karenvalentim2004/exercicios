@@ -24,7 +24,7 @@ function fnListar() {
                         <strong>Telefone:</strong> ${umContato.telefone} <br>
                         <strong>Email:</strong> ${umContato.email}
                     </p>
-                    <a href="mailto:${umContato.email}" class="btn btn-danger">Excluir</a>
+                    <button type="button" onclick="fnExcluir(${i})" class="btn btn-danger">Excluir</button>
                 </div>
             </div>
         </div>`;
@@ -34,9 +34,17 @@ function fnListar() {
 }
 
 
-function fnExcluir() { }
+function fnExcluir(indice) {
+    contatos.splice(indice, 1)
+    fnListar()
+}
+
+function fnLimpar() {
+    document.getElementById('formulario').reset()
+}
 
 document.getElementById('btSalvar').addEventListener('click', function () {
     fnSalvar()
     fnListar()
+    fnLimpar()
 })
