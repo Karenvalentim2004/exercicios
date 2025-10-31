@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 16</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+</head>
+
+<body>
+<div class="container">
+   
+    <div class="row">
+        <div class="col">
+            <form class="mx-auto p-5 w-50" id="formulario">
+                <label class="form-label">Valor da Conta:</label>
+                <input class="form-control" type="number" id="valorConta">
+
+                <label class="form-label mt-4">Valor (%):</label>
+                <input class="form-control" type="number" id="valorPorcentagem">
+
+                <label class="form-label mt-4">Função:</label>
+                <select class="form-select" id="funcao">
+                    <option value="desconto">Desconto</option>
+                    <option value="acrescimo">Acréscimo</option>
+                </select>
+
+                <div class="resultado text-center mt-4" id="resultado">
+                    Valor a pagar<br><strong>R$ 0,00</strong>
+                </div>
+
+                <button class="btn btn-primary w-100 mt-4" id="btCalcular" type="button" onclick="calcular()">CALCULAR</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
